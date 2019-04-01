@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: a010a3efdf5ebbb4fa0109afa2f7900a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: knightHead
+    21300002: knightTorso
+    21300004: knightRightShoulder
+    21300006: knightLeftShoulder
+    21300008: knightRightUpperArm
+    21300010: knightLeftUpperArm
+    21300012: knightWaist
+    21300014: knightLeftLowerArm
+    21300016: knightLeftCloth
+    21300018: knightRightCloth
+    21300020: knightLeftUpperLeg
+    21300022: knightRightUpperLeg
+    21300024: knightRightLowerArm
+    21300026: knightRightHand
+    21300028: knightLeftHand
+    21300030: knightLeftLowerLeg
+    21300032: knightRightLowerLeg
+    21300034: knightLeftBackFoot
+    21300036: knightLeftFrontFoot
+    21300038: knightRightBackFoot
+    21300040: knightRightFrontFoot
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: knightHead
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1604
+        width: 234
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5075095, y: 0.020747792}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439427988fd35c64fab23b81d7fde203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightTorso
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1386
+        width: 297
+        height: 402
+      alignment: 9
+      pivot: {x: 0.5236666, y: 0.019158661}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4578adc400c3894e802af7e561a3da0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightRightShoulder
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1608
+        width: 136
+        height: 140
+      alignment: 9
+      pivot: {x: 0.36419138, y: 0.48800573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e1cc0d0dc03c4428aa0eff2000b8a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightLeftShoulder
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1319
+        width: 187
+        height: 167
+      alignment: 9
+      pivot: {x: 0.57068044, y: 0.45007324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac717e0635d7244fa78aecea53c0b0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightRightUpperArm
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1219
+        width: 132
+        height: 210
+      alignment: 9
+      pivot: {x: 0.3727972, y: 0.8677961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207d31be7b8d6084f8870e5f3a2ba79d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightLeftUpperArm
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1046
+        width: 166
+        height: 213
+      alignment: 9
+      pivot: {x: 0.75170594, y: 0.86373514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1727d6948ce3d4743a037675c54b6f71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightWaist
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1135
+        width: 228
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5662791, y: 0.65380764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5906a967f6f79949b559d327371f3da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightLeftLowerArm
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 730
+        width: 117
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5430531, y: 0.8445851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3554f99b3d34d714ab13ea7768c11364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightLeftCloth
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 680
+        width: 129
+        height: 237
+      alignment: 9
+      pivot: {x: 0.79936916, y: 0.8117261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1579e62b771914d859ebb75126e6d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightRightCloth
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 744
+        width: 99
+        height: 221
+      alignment: 9
+      pivot: {x: 0.20040925, y: 0.7565703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beba9169ea0107f4b9ee1478e62a6bb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightLeftUpperLeg
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 664
+        width: 144
+        height: 348
+      alignment: 9
+      pivot: {x: 0.6166017, y: 0.85704374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c385696c80f40f4385069691312e26b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightRightUpperLeg
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 732
+        width: 177
+        height: 336
+      alignment: 9
+      pivot: {x: 0.29130185, y: 0.8548034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4588cf00c08554ab5c901eebbd70c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightRightLowerArm
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 864
+        width: 180
+        height: 240
+      alignment: 9
+      pivot: {x: 0.2294827, y: 0.8148254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389f8dd0ab9a14f49ba11233d8fc2370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightRightHand
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 647
+        width: 147
+        height: 150
+      alignment: 9
+      pivot: {x: 0.3400879, y: 0.75745726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfec99f11df9efb4696027e97e6b98b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightLeftHand
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 428
+        width: 130
+        height: 164
+      alignment: 9
+      pivot: {x: 0.3837566, y: 0.73547924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d403667d0b678f94fbe1e76b60556f2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightLeftLowerLeg
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 231
+        width: 169
+        height: 357
+      alignment: 9
+      pivot: {x: 0.6689002, y: 0.8527458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cb213577e5e114ca6396ee901d7bb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightRightLowerLeg
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 272
+        width: 148
+        height: 364
+      alignment: 9
+      pivot: {x: 0.5680707, y: 0.8551879}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b35cbd455b5b54983b983754f7bfd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightLeftBackFoot
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 71
+        width: 161
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5417158, y: 0.7636555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd449b01204e9b142b428e7a034dacf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightLeftFrontFoot
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 92
+        width: 134
+        height: 80
+      alignment: 9
+      pivot: {x: 0.23686196, y: 0.47901154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f19a5612ba5e641ab0d08225d7ddcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightRightBackFoot
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 96
+        width: 160
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5314827, y: 0.7418999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9457d817439de394f88ff3ed0743f58c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightRightFrontFoot
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 83
+        width: 136
+        height: 78
+      alignment: 9
+      pivot: {x: 0.25307778, y: 0.47847307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58be8ccb57f8fa41b64ef872fe8d242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b9674b6a2fdefd34c9f33e89fb0e3d1a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
