@@ -29,8 +29,7 @@ public class Player : MonoBehaviour
     {
         Move();
 
-        Jump();
-
+        Debug.DrawRay(transform.position, Vector2.down * 2.4f, Color.red);
         Attack();
     }
 
@@ -60,16 +59,13 @@ public class Player : MonoBehaviour
     }
 
     // Jump
-    private void Jump()
+    public void Jump()
     {
         Debug.DrawRay(transform.position, Vector2.down * 2.4f, Color.red);
-        if (Input.GetButtonUp("Jump"))
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 2.4f, groundLayer);
+        if (hit.collider != null)
         {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 2.4f, groundLayer);
-            if (hit.collider != null)
-            {
-                _rigid.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            }
+            _rigid.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
 
@@ -78,9 +74,9 @@ public class Player : MonoBehaviour
     {
         if(Input.GetButtonUp("Attack"))
         {
-            AnimateAttack();
-            Time.timeScale = 0;
-            attackPanel.SetActive(true);
+            //AnimateAttack();
+            //Time.timeScale = 0;
+            //attackPanel.SetActive(true);
         }
     }
 
