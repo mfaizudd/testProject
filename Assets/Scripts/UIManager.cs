@@ -56,4 +56,9 @@ public class UIManager : MonoBehaviour
         spAnimator.SetTrigger("Close");
     }
 
+    public void Jump()
+    {
+        GameManager.Instance.GetPlayer().Jump();
+    }
+
 }

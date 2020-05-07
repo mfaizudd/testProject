@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AttackManager))]
 public class Player : MonoBehaviour
 {
     private Rigidbody2D _rigid;
     private Animator _anim;
     private Transform playerRig;
+    private AttackManager _attack;
 
     // Props
     [SerializeField]
@@ -22,15 +24,19 @@ public class Player : MonoBehaviour
     {
         _rigid = GetComponent<Rigidbody2D>();
         _anim = GetComponentInChildren<Animator>();
+        _attack = GetComponent<AttackManager>();
         playerRig = transform.GetChild(0);
     }
 
     private void FixedUpdate()
     {
         Move();
-
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 2.4f, groundLayer);
+        if (hit.collider != null && _anim.GetBool("IsJump") && _rigid.velocity.y <=0)
+        {
+            _anim.SetBool("IsJump", false);
+        }
         Debug.DrawRay(transform.position, Vector2.down * 2.4f, Color.red);
-        Attack();
     }
 
 
@@ -58,7 +64,6 @@ public class Player : MonoBehaviour
         _anim.SetFloat("Move", move * Time.deltaTime);
     }
 
-    // Jump
     public void Jump()
     {
         Debug.DrawRay(transform.position, Vector2.down * 2.4f, Color.red);
@@ -66,22 +71,20 @@ public class Player : MonoBehaviour
         if (hit.collider != null)
         {
             _rigid.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            _anim.SetBool("IsJump", true);
+            _anim.SetTrigger("Jump");
         }
     }
-
-    // Attack
-    private void Attack()
+    
+    public void Slash()
     {
-        if(Input.GetButtonUp("Attack"))
-        {
-            //AnimateAttack();
-            //Time.timeScale = 0;
-            //attackPanel.SetActive(true);
-        }
+        _anim.SetTrigger("Slash");
+        _attack.SetDamage(5);
     }
 
-    private void AnimateAttack()
+    public void Punch()
     {
-        _anim.SetTrigger("Attack");
+        _anim.SetTrigger("Punch");
+        _attack.SetDamage(3);
     }
 }

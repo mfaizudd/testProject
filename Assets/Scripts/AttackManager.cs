@@ -11,7 +11,12 @@ public class AttackManager : MonoBehaviour
     {
         sword.Damaging = true;
         sword.DamageValue = value;
-        Time.timeScale = 1;
-        gameObject.SetActive(false);
+        StartCoroutine(DisableDamaging());
+    }
+
+    IEnumerator DisableDamaging()
+    {
+        yield return new WaitForSeconds(.25f);
+        sword.Damaging = false;
     }
 }
