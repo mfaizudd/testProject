@@ -6,7 +6,7 @@ public class AttackManager : MonoBehaviour
 {
     [SerializeField]
     private Sword sword;
-
+	//wkwk
     public void SetDamage(int value)
     {
         sword.Damaging = true;
